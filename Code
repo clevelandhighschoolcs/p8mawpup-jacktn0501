@@ -1,4 +1,4 @@
-
+from bs4 import BeautifulSoup
 import urllib2 import time
 
 def WebData(): timeT = 0 length = '' while timeT < 5: URL = urllib2.urlopen('http://www.ign.com') data = URL.read() datastring = str(data) lengthA = len(datastring)
