@@ -9,6 +9,6 @@ def WebData(): timeT = 0 length = '' while timeT < 5: URL = urllib2.urlopen('htt
                     return
             else:
                     length8 = lengthA
-            timeT += 1
-            time.sleep(5)
+                    timeT += 1
+                    time.sleep(5)
 WebData()
