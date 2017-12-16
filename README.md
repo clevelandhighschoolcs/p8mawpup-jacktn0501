@@ -1,6 +1,7 @@
 # Web-Scraping
-1. Open Python 3.6
+1. Open Python 2.7.14
 
+patch-1
 2.Type Code:
 ```python
 import urllib2 import time
@@ -17,3 +18,8 @@ def WebData(): timeT = 0 length = '' while timeT < 5: URL = urllib2.urlopen('htt
             time.sleep(5)
 WebData()
 ```
+
+2.install twilio library
+
+3.Run Code.py
+ master
