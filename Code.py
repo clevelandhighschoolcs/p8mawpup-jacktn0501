@@ -23,7 +23,7 @@ def WebData():
    print ('The website Has changed from ' + str(lengthA) + ' to ' + str(length8) + 'characters')
    return
   else:
-   length8 = lengthA
+  length8 = lengthA
   time.sleep(5)
    
 WebData()
